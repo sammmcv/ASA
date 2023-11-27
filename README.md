@@ -1,5 +1,5 @@
-# ASA
-asa lr y ll
+# Analizador sintactico
+lr y ll
 Desarrollado por:
 -> Barros Martínez Luis Enrique
 -> Baustista Rios Alfredo
