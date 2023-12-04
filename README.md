@@ -1,2 +1,6 @@
 # Analizador sintactico
-lr y ll
+Analizadores Sintacticos 
+  Ascendente
+    Gramatica LR
+  Descendente Iterarivo
+    Gramatica LL
