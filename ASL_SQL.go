@@ -580,7 +580,7 @@ func lexate(sqlCode string) string {
 	// Reemplazar ", " por " , "
 	sqlCode = strings.ReplaceAll(sqlCode, ", ", " , ")
 	// Reemplazar ". " por " . "
-	sqlCode = strings.ReplaceAll(sqlCode, ". ", " . ")
+	sqlCode = strings.ReplaceAll(sqlCode, ".", " . ")
 	// Dividir el código en palabras
 	words := strings.Fields(sqlCode)
 
