@@ -576,7 +576,11 @@ func lexate(sqlCode string) string {
 	commaRegex := regexp.MustCompile(`,`)
 	distinctRegex := regexp.MustCompile(`\bdistinct\b`)
 	starRegex := regexp.MustCompile(`\*`)
-
+	
+	// Reemplazar ", " por " , "
+	sqlCode = strings.ReplaceAll(sqlCode, ", ", " , ")
+	// Reemplazar ". " por " . "
+	sqlCode = strings.ReplaceAll(sqlCode, ". ", " . ")
 	// Dividir el código en palabras
 	words := strings.Fields(sqlCode)
 
